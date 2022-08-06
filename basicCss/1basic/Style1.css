@@ -1,0 +1,39 @@
+
+a{
+	color : red;
+
+}
+
+h1.spec {
+	color: rgb(238, 0, 255);
+	font-weight: bold;
+}
+li{
+	list-style-type: lower-greek;
+}
+
+li em{
+	color: red;
+}
+
+a:hover{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+body h1+p .spec{
+	color: blueviolet;
+	background-color: black;
+}
+
+#one{
+	color: sienna;
+	background: #000;
+}
+li[class=spec]{
+	color: royalblue;
+	font-size: 300%;
+}
+	*{
+		color: rgb(255, 52, 52);
+	}
