@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+			padding-top: 200px;
+			text-align: center;
+		}
+		span{
+			padding: 30px;
+			background-color: red;
+			color: yellow;
+		}
+		.box {
+			padding: 20px;
+			width: 25%;
+			border: 10%;
+			border-radius: 20px;
+			color: rgb(203, 248, 0);
+			background-color: rgb(233, 14, 14);
+			overflow: hidden;
+		    }
+
+	    @media all and (max-width: 520px) and (min-width:321px) {
+		.box {
+			
+		    width: 30%;
+		    margin: 2px;
+		    float: left;
+		}
+	    }
+	    @media all and (max-width: 321px) {
+		.box {
+			width: 30%;
+			margin: 2px;
+			float: left;
+		    }
+	    }
+
+		
+	</style>
+</head>
+<body>
+	<div >
+		<span class="box">Name1</span>
+		<span class="box">Name2</span>
+		<span class="box">Name2</span>
+		<span class="box">Name2</span>
+	</div>
+</body>
+</html>
