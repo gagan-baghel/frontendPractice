@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=\, initial-scale=1.0">
+	<title>media queries</title>
+	<style>
+		html{
+			font-size: 1em;
+		}
+		@media screen and (min-width:600px) {
+			p{
+				color: blue;
+				font: justify;
+				text-align: justify;
+			}
+		}
+		/*@media (orientation:landscape ){
+			p{
+				color: aqua;
+			}
+		}
+		@media screen and (max-width:600px) and (orientation:landscape){
+			p{
+				color: green;
+			}
+		}*/
+		@media screen and (max-width:600),screen and (orientation: landscape){
+			p{
+				color:red;
+			}
+		}
+		@media not all and (orientation : landscape) {
+			body{
+				color:blueviolet;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora error neque repudiandae deleniti nemo tempore molestiae nesciunt, aliquam quae adipisci quia numquam fugiat dolor molestias repellat voluptate enim. Voluptate quasi ratione dolorem eius sed id, excepturi, aspernatur ab aut commodi magnam facilis hic quaerat eaque corrupti adipisci inventore! Ipsum enim dolores dolore perspiciatis possimus, veniam suscipit cumque quas aliquid eius!</p>
+	
+</body>
+</html>
