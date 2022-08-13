@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>gridify</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		h1{	
+			width: 100%;
+			text-align: center;
+			color: white;
+			padding-top: 3%;
+			font-weight: bolder;
+			font-size: 50px;
+		}
+		.container{
+			padding-top: 2%;
+			display: grid;
+			grid-gap: 7px;
+			grid-template-columns: repeat(6,1fr);
+			background-color: black;
+		}
+		.nested{
+			display: grid;
+			grid-gap: 5px;
+		}
+
+		.a{	
+			border-radius: 7px;
+			background-color: lightblue;
+			color: rgb(0, 0, 0);
+			border: 3px solid rgb(255, 255, 255);
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Grid Container</h1>
+	<div class="container">
+		<div class="nested">
+			<div class="a"></div>
+		</div>
+		<div class="nested">
+			<div class="a">2</div>
+			<div class="a">3</div>
+		</div>
+		<div class="nested">
+			<div class="a">4</div>
+			<div class="a">5</div>
+			<div class="a">6</div>
+		</div>
+		<div class="nested">
+			<div class="a">7</div>
+			<div class="a">8</div>
+			<div class="a">9</div>
+			<div class="a">10</div>
+		</div>
+		<div class="nested">
+			<div class="a">11</div>
+			<div class="a">12</div>
+			<div class="a">13</div>
+			<div class="a">14</div>
+			<div class="a">15</div>
+		</div>
+		<div class="nested">
+			<div class="a">16</div>
+			<div class="a">17</div>
+			<div class="a">18</div>
+			<div class="a">19</div>
+			<div class="a">20</div>
+			<div class="a">21</div>
+			<div class="a">16</div>
+			<div class="a">17</div>
+			<div class="a">18</div>
+			<div class="a">19</div>
+			<div class="a">20</div>
+			<div class="a">21</div>
+			<div class="a">16</div>
+			<div class="a">17</div>
+			<div class="a">18</div>
+			<div class="a">19</div>
+			<div class="a">20</div>
+			<div class="a">21</div>
+			<div class="a">16</div>
+			<div class="a">17</div>
+			<div class="a">18</div>
+			<div class="a">19</div>
+			<div class="a">20</div>
+			<div class="a">21</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
