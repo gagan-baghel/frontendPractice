@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fbc2</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 10%;
+		}
+		.flex-container{
+			display: flex;
+			margin: 10px;
+			flex-grow: 1;
+		}
+		.flex-item{
+			display: flex;
+			padding: 10px;
+			height: 500px;
+			width: 300px;
+			margin: 20px;
+			border-radius: 5px;
+			background-color: rgb(201, 46, 46); 
+			color: rgb(255, 255, 255);
+			box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+			flex-wrap: wrap;
+		}
+		.flex-item:hover{            
+			cursor: pointer;
+			transition: 1s;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+			background-color: rgb(139, 56, 56);
+			color: rgb(0, 0, 0);
+		}
+		.flex-item img{
+			width: 300px;
+			height: 200px;
+			border-radius: 3px;
+		}
+		.flex-item h1{
+			width:100%;
+			text-align:center;
+			font-size: 1.8rem;
+			padding-left: 5px;
+			text-shadow: 1px 0.5px 1.7px #1f291f;
+		}
+		p{
+			text-align:center;
+		}
+		#p1{
+			align-content: center;
+		}
+		.bb1{	
+			font-size: 9px;
+			display:flex;
+			justify-content: center;
+			width:100%;
+			align-self: center;
+			margin-bottom: 20px;
+			border: 0;
+		}
+		button{
+			font-size: 17px;
+			border-radius: 15px;
+			height:60px;
+			width: 70%;
+			background-color: rosybrown;
+			text-align: center;
+		}
+		button:hover{
+			cursor: pointer;
+			transition: 2s;
+			background-color: rgb(137, 19, 19);
+			color: rgb(0, 0, 0);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item"><img src="1.jpeg" alt=""><h1 id="p1">Deadpool</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p>
+			<div class="bb1">
+				<button> More Info </button>
+			</div>
+
+		</div>
+		<div class="flex-item"><img src="2.jpeg" alt=""><h1>Ironman</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p><div class="bb1">
+			<button> More Info </button>
+		</div>
+		</div>
+		<div class="flex-item"><img src="3.png" alt=""><h1>Wanda</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p><div class="bb1">
+			<button> More Info </button>
+		</div>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-item"><img src="4.png" alt=""><h1>Stan Lee</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p><div class="bb1">
+			<button> More Info </button>
+		</div>
+		</div>
+		<div class="flex-item"><img src="5.jpeg" alt=""><h1>Starlord</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p><div class="bb1">
+			<button> More Info </button>
+		</div>
+		</div>
+		<div class="flex-item"><img src="6.png" alt=""><h1>Thor</h1><p>Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius omnis unde obcaecati eaque pariatur dolor itaque at nesciunt voluptate.ipsum dolor sit amet consectetur adipisicing elit. Omnis, quod?</p><div class="bb1">
+			<button> More Info </button>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>

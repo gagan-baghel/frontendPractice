@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Payment Form</title>
+	<link rel="stylesheet" href="Style.css">
+	<style>
+		h1{
+			background-color: hotpink;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1>Payment Form</h1> <hr>
+	<form action="">
+		<h2>User Details</h2>
+		<div>
+			<p>
+				Name : *<input type="text" placeholder=" name " name="uname" required> 
+			</p>
+		</div> 
+		<fieldset>
+			<legend>Gender</legend>
+			<div> Gender : <br>
+				<input type="radio" name="r1"> male <br>
+				<input type="radio" name="r1"> female <br>
+				<input type="radio" name="r1"> other <br>
+			</div>
+
+		</fieldset>
+		<br>
+		<textarea name="address" id="" cols="60" rows="7"> Address</textarea> <br>
+		<div>
+			<p> Email : <input type="email" name="mail" id=""> </p>
+		</div> 
+		<div>
+			<p>Pin ciode : <input type="number"> </p>
+		</div> <br>
+		<hr>
+
+		<h2>Payment Details</h2>
+		<div>
+			<p> Card Type : <select name="cardt" id="">
+					<option value="">--Select A Card Type-- </option>
+					<option value="1">visa </option>
+					<option value="2">master </option>
+					<option value="3">rupay</option>
+					<option value="4">icici</option>
+				</select> </p>
+		</div>
+		<p> Card No : <input type="text" name="" id=""> </p>
+		<p> Expire Date : <input type="date" name="" id=""> </p>
+		<p> CVV : <input type="password" name="" id=""> </p>
+
+		<input type="submit" value="PayNow" name="pm" id="jiolkSC">
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>floatchallange</title>
+	<style>
+		body{
+			margin: 0 auto;
+			max-width: 900px;
+			width: 90%;
+			text-align: justify;
+		}
+		.box{
+			padding-top: 3em;
+			background-color: #dbff9c;
+			position:relative;
+			height: 80px;
+			width: 100%;
+			text-align: center;
+			margin:10px;
+			border-radius: 12px;
+		}
+		.box:hover{
+			background-color: #ffc9c9;
+			font-family: cursive;
+		}
+		#ibox-1{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			height: 50px;
+			width: 50px;
+			padding: 5px 1em 0 2em;
+			padding: 20px;
+			background-color: lightblue;
+			border-radius:5px;
+			float: left;
+			margin: 10px;
+		}
+		#ibox-2{
+			position: absolute;
+			top: 10px;
+			height: 50px;
+			width: 50px;
+			padding: 20px;
+
+			background-color: lightblue;
+			border-radius:5px;
+			margin: 10px;
+		}
+		#ibox-3{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			height: 50px;
+			width: 50px;
+			padding: 20px;
+
+			background-color: lightblue;
+			border-radius:5px;
+			float: left;
+			margin: 10px;
+		}
+		#ibox-4{
+			position: absolute;
+			top: 10px;
+			height: 50px;
+			width: 50px;
+			padding: 20px;
+
+			background-color: lightblue;
+			border-radius:5px;
+			float: right;
+			margin: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="mainb">
+		<div class="box box-1"><div id="ibox-1">internal box 1</div>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur!
+		</p>
+		</div>
+		<div class="box box-2">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur!
+			<div id="ibox-2">internal box 2</div>
+		</div>
+		<div class="box box-3">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, consectetur!
+			<div id="ibox-3">internal box 3</div>
+		</div>
+		<div class="box box-4">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, 
+			<div id="ibox-4">internal box 4</div>
+		</div>
+	</div>
+</body>
+</html>

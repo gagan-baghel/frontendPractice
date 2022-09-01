@@ -1,0 +1,42 @@
+.a {
+	background-color: lightgreen;
+	padding: 20px 20px 10px 10px;
+	font-family: 'Courier New', Courier, monospace;
+}
+.cfor {
+	background-color: gray;
+	padding: 5px 20px 15px 20px;
+	width: 50%;
+	font-family: 'Courier New', Courier, monospace;
+}
+body{
+	background-image: url("cf1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 14px;
+	padding: 23px;
+
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+	box-sizing: border-box;
+	padding: 10px;
+	border: 2px black;
+	border-radius: 4px;
+	margin: 8px;
+	width:100%;
+}
+input[type="submit"]{
+	background-color: rgb(161, 241, 173);
+	padding: 1px 2px;
+	border-width: 2px;
+	border-color: rgb(166, 238, 135);
+	border-radius: 4px;
+	cursor: pointer;
+	font-size:20px;
+	width: 99%;
+	align-items: center;
+
+}
