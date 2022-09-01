@@ -1,0 +1,166 @@
+* {
+  /* color: white; */
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url(mat.gif);
+}
+header h1 {
+  padding-top: 55px;
+  font-size: 40px;
+  padding-top: 55px;
+  color: rgb(97, 255, 157);
+}
+
+nav {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  /* overflow: hidden; */
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  float: left;
+  color: white;
+}
+
+main {
+  background-color: white;
+  text-align: center;
+/* Created with https://www.css-gradient.com */
+
+}
+h2{
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 span{
+  padding: 10px 55px;
+  border-radius: 5px;
+
+
+  background: rgba(143, 18, 151, 1.0);
+background: -webkit-linear-gradient(top left, rgba(143, 18, 151, 1.0), rgba(224, 169, 140, 1.0));
+background: -moz-linear-gradient(top left, rgba(143, 18, 151, 1.0), rgba(224, 169, 140, 1.0));
+background: linear-gradient(to bottom right, rgba(143, 18, 151, 1.0), rgba(224, 169, 140, 1.0));
+}
+
+section:nth-child(even) {
+  background-color: rgb(0, 0, 0);
+}
+/* section:nth-child(odd) {
+  background-color: rgb(0, 0, 0);
+} */
+
+section {
+  padding-top: 10px;
+  min-height: 40vh;
+}
+
+
+img {
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+h4 {
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cr {
+  float: right;
+}
+
+.p {
+  height: 30vh;
+}
+.d {
+  margin: 0;
+  border-radius: 50%;
+}
+
+.banner {
+  height: 20vh;
+}
+.a {
+  margin-left: auto;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  cursor: grab;
+}
+
+nav a:active {
+  cursor: grabbing;
+}
+
+.carousel-cell {
+  padding-top: 20px;
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.carousel-cell video{
+  max-width: 100%;
+}
+
+.yt a{
+  padding :8px;
+  background-color: grey;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.yt a:hover{
+background-color: #0072b1;
+color: white;
+}
+.yt{
+  margin: 10px;
+}
+
+
+.yt a i:hover{
+color: rgb(250, 92, 92);
+
+}
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  .a {
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
